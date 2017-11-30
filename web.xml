@@ -1,0 +1,10 @@
+<web-app>
+   <servlet>
+      <display-name>Project 3</display-name>
+      <servlet-name>service.ApplicationConfig</servlet-name>   <!-- package name.class name that extends  -->
+      <init-param>
+         <param-name>javax.ws.rs.ApplicationConfig</param-name>
+         <param-value>project3.ApplicationConfig</param-value>
+      </init-param>
+   </servlet>
+</web-app>
